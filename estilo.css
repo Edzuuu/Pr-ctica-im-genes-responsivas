@@ -1,0 +1,32 @@
+ *{
+    padding: auto;
+    margin: auto;
+ }
+body{
+    width: 1200px;
+    height: auto; 
+    border: 5px solid #ff0000;
+}
+.banner1 img {
+    width: 100%;
+    height: 500px;
+}
+.banner2 {
+    width: 100%;
+    height: 500px;
+    background-image: url(banner\ dulceria.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media (max-width: 720px) {
+    .banner-bg {
+        background-image: url('dulceria720.jpg');
+    }
+}
+
+@media (max-width: 480px) {
+    .banner-bg {
+        background-image: url('dulceria480.jpg');
+    }
+}
